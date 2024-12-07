@@ -1,1 +1,100 @@
+local OrionLib = loadstring(game:HttpGet('https://raw.githubusercontent.com/AlaaEmad23557/Neon-Hub-Lib/main/Lib'))()
+local Player = game.Players.LocalPlayer
+local Window = OrionLib:MakeWindow({
+    Name = "| XETHUS | PREMIUM BR |", 
+    SearchBar = { Default = 'Pesquise', ClearTextOnFocus = true }, 
+    HidePremium = false, 
+    SaveConfig = true, 
+    ConfigFolder = "OrionTest"
+})
 
+local Tab = Window:MakeTab({
+    Name = "Animal Simulator",
+    Icon = "rbxassetid://11348590078",
+    PremiumOnly = false
+})
+
+Tab:AddButton({
+    Name = "Execute!",
+    Callback = function()
+        loadstring(game:HttpGet("https://raw.githubusercontent.com/Hercules4328/Hidley/refs/heads/main/Premium", true))()
+    end    
+})
+local Tab = Window:MakeTab({
+    Name = "Animal Undewater",
+    Icon = "rbxassetid://11348590078",
+    PremiumOnly = false
+})
+:AddButton({
+    Name = "Execute!",
+    Callback = function()
+        loadstring(game:HttpGet("https://raw.githubusercontent.com/Hercules4328/AnimalUnderwate/refs/heads/main/Aninalundewater"))()
+    end    
+})
+local Tab = Window:MakeTab({
+    Name = "Fisch",
+    Icon = "rbxassetid://11348590078",
+    PremiumOnly = false
+})
+:AddButton({
+    Name = "Execute!",
+    Callback = function()
+        loadstring(game:HttpGet("https://raw.githubusercontent.com/Hercules4328/UnderwaterBR/refs/heads/main/Fisch"))()
+    end    
+})
+local Tab = Window:MakeTab({
+    Name = "King Legacy",
+    Icon = "rbxassetid://11348590078",
+    PremiumOnly = false
+})
+:AddButton({
+    Name = "Execute!",
+    Callback = function()
+        loadstring(game:HttpGet("https://raw.githubusercontent.com/matheuzxs/matheuzxs.lua/main/Loader"))()
+    end    
+})
+local Tab = Window:MakeTab({
+		Name = "Admins",
+		Icon = "rbxassetid://11819163504",
+		PremiumOnly = false
+	})
+	Tab:AddButton({
+		Name = "Retirar Texturas",
+		Callback = function()
+			loadstring(game:HttpGet("https://rawscripts.net/raw/Universal-Script-antilag-15462"))()
+		end    
+	})
+	
+	Tab:AddButton({
+		Name = "Graficos Realistas",
+		Callback = function()
+			loadstring(game:HttpGet("https://raw.githubusercontent.com/Flybobbb/robloxscripts/main/rtx.lua"))()
+		end    
+	})
+	Tab:AddButton({
+		Name = "Infinite Yield",
+		Callback = function()
+			loadstring(game:HttpGet('https://raw.githubusercontent.com/EdgeIY/infiniteyield/master/source'))()
+		end    
+	})
+	
+	Tab:AddButton({
+		Name = "Aimbot Universal",
+		Callback = function()
+			loadstring(game:HttpGet(("https://raw.githubusercontent.com/Yousuck780/troll-x/main/ahhhh"), true))()
+		end    
+	})
+	Tab:AddButton({
+		Name = "Teleporte com Tool",
+		Callback = function()
+			loadstring(game:HttpGet("https://pastebin.com/raw/7pQFmXUv"))()
+		end    
+	})
+	Tab:AddButton({
+		Name = "Servidor Privado",
+		Callback = function()
+			loadstring(game:HttpGet("https://pastebin.com/raw/A4r1pHJY"))()
+		end    
+	})
+	
+	loadstring(game:HttpGet("https://pastebin.com/raw/Fz6vcuAb", true))()  
